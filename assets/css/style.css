@@ -1,0 +1,52 @@
+/* header*/
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 4rem 0rem;
+    z-index: 2022;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+header .container nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container nav .menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container nav .menu li{
+    margin-right: 4.8rem;
+}
+
+header
+
+header .container nav .menu-social {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 4rem;
+}
+
+
+/* Section Hero*/
+
+.s-hero{
+    background: url(../img/s-hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
