@@ -40,6 +40,19 @@ button{
     --white-color: #ffffff;
 }
 
+body::-webkit-scrollbar{
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: var(--black-color-medium);
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: var(--primary-color);
+    border-radius: 6px;
+}
+
 .container{
     width: 100%;
     max-width: 1246px;
