@@ -188,7 +188,55 @@ header .container nav .menu-social {
     margin-bottom: 5.5rem;
 }
 
+/* About*/
+  
+.s-about {
+    background-color: var(--black-color-medium);
+    padding: 6rem 0rem;
+} 
 
+.s-about .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s-about .container .about-me{
+    width: 100%;
+    max-width: 71rem;
+}
+
+.s-about .container .about-me h2{
+    font-weight: 900;
+}
+
+.s-about .container .about-me p{
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    line-height: 2.4rem;
+    margin-top: 2.4rem;
+}
+
+.s-about .container .about-me ul {
+    display: flex;
+    gap: 1.6rem;
+    margin-top: 2.6rem;
+}
+
+.s-about .container .about-me ul li img {
+    width: 2rem;
+    height: 2rem;
+    transition: all 0.2s;
+}
+
+.s-about .container .about-me ul img:hover{
+    transform: scale(1.2) translateY(10%) ;
+}
+
+.s-about .container .my-picture img{
+    border-radius: 4px;
+    max-width: 36rem;
+}
 
 
 
