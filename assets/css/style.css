@@ -220,6 +220,7 @@ header .container nav .menu-social li:hover{
 
 .s-about .container .about-me h2{
     font-weight: 900;
+    text-transform: uppercase;
 }
 
 .s-about .container .about-me p{
@@ -267,14 +268,79 @@ header .container nav .menu-social li:hover{
 
 .s-cases .container .title-cases h2{
     font-weight: 900;
+    text-transform: uppercase;
 }
 
 .s-cases .container .cases{
     display:flex;
     width: 100%;
-    gap:0.8rem;
+    align-items: center;
+    
+}
+
+.s-cases .container .cases .case img{
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.s-cases .container .cases .case img:hover{
+    transform: translateY(-2%);
+}    
+ 
+.s-cases .container .cases .case img:nth-child(2){
+    border-radius: 0.4rem;
+    cursor: pointer;
+    margin-top: -1.6rem;
 }
  
+/* Section Contact*/
+
+.s-contact{
+    padding-top: 4rem;
+    padding-bottom: 5.1rem;
+}
+
+.s-contact .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s-contact .container .title-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    width: 100%;
+    max-width: 38rem;
+    text-transform: uppercase;
+
+}
+
+.s-contact .container .title-contact .tag{
+    width: 100%;
+    max-width: 13.2rem;
+}
+
+.s-contact .container .title-contact h2{
+    font-weight: 900;
+}
+
+.s-contact .container .form-contact{
+    width: 100%;
+    max-width: 48.6rem;
+}
+
+.s-contact .container .form-contact .input-group input[type="text"], .s-contact .container .form-contact .input-group input[type="email"] {
+    margin-bottom: 3.1rem;
+}
+
+.input-button{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.7rem;
+}
 
 /* rodapé*/
 
